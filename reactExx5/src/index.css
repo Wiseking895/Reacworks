@@ -1,0 +1,14 @@
+/* Reset margins and ensure full page layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make html, body, and root occupy the full screen */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f1f4ff, #e0ecf8);
+}
