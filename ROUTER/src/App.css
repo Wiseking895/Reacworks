@@ -1,0 +1,30 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+nav {
+  background-color: #282c34;
+  padding: 1em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 20px;
+}
